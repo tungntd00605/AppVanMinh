@@ -12,11 +12,11 @@
         <StackPanel x:ConnectionId='2' Margin="30, 0, 0, 0" x:Name="ParentStackPanel">
             <RelativePanel>
                 <TextBox x:ConnectionId='29' x:Name="Email" Margin="0, 30, 0, 0" Header="Email" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:ConnectionId='30' x:Name="Email_Message" RelativePanel.Below="Email"/>
+                <TextBlock x:ConnectionId='30' x:Name="email" RelativePanel.Below="Email"/>
             </RelativePanel>
             <RelativePanel>
                 <PasswordBox x:ConnectionId='27' x:Name="Password" Margin="0, 30, 0, 0" Header="Password" Width="293" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                <TextBlock x:ConnectionId='28' x:Name="Password_Message" RelativePanel.Below="Password"/>
+                <TextBlock x:ConnectionId='28' x:Name="password" RelativePanel.Below="Password"/>
             </RelativePanel>
             <RelativePanel>
                 <PasswordBox x:ConnectionId='25' x:Name="Confirm_Password" Margin="0, 30, 0, 0" Header="Confirm Password" Width="293" HorizontalAlignment="Left" VerticalAlignment="Top"/>
@@ -24,31 +24,31 @@
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:ConnectionId='23' x:Name="FirstName" Margin="0, 30, 0, 0" Header="First Name" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:ConnectionId='24' x:Name="FirstName_Message" RelativePanel.Below="FirstName"/>
+                <TextBlock x:ConnectionId='24' x:Name="firstName" RelativePanel.Below="FirstName"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:ConnectionId='21' x:Name="LastName" Margin="0, 30, 0, 0" Header="Last Name" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:ConnectionId='22' x:Name="LastName_Message" RelativePanel.Below="LastName"/>
+                <TextBlock x:ConnectionId='22' x:Name="lastName" RelativePanel.Below="LastName"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:ConnectionId='19' x:Name="ImageUrl" Margin="0, 30, 0, 0" Header="Avatar Url" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:ConnectionId='20' x:Name="ImageUrl_Message" RelativePanel.Below="ImageUrl"/>
+                <TextBlock x:ConnectionId='20' x:Name="avatar" RelativePanel.Below="ImageUrl"/>
             </RelativePanel>
 
-            <Image x:ConnectionId='3' x:Name="MyAvatar" Width="150" Height="150"/>
+            <Image x:ConnectionId='3' x:Name="MyAvatar" Width="250" Height="250" HorizontalAlignment="Left"/>
 
             <Button x:ConnectionId='4' Content="Capture Your Photo" Margin="0, 30, 0, 0"                       />
             <RelativePanel>
                 <TextBox x:ConnectionId='17' x:Name="Phone" Margin="0, 30, 0, 0" Header="Phone Number" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:ConnectionId='18' x:Name="Phone_Message" RelativePanel.Below="Phone"/>
+                <TextBlock x:ConnectionId='18' x:Name="phone" RelativePanel.Below="Phone"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:ConnectionId='15' AcceptsReturn="True" x:Name="Address" Margin="0, 30, 0, 0" Header="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Width="293" Height="100"/>
-                <TextBlock x:ConnectionId='16' x:Name="Address_Message" RelativePanel.Below="Address"/>
+                <TextBlock x:ConnectionId='16' x:Name="address" RelativePanel.Below="Address"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:ConnectionId='13' AcceptsReturn="True" x:Name="Introduction" Margin="0, 30, 0, 0" Header="Introduction" HorizontalAlignment="Left" VerticalAlignment="Top" Width="293" Height="100"/>
-                <TextBlock x:ConnectionId='14' x:Name="Introduction_Message" RelativePanel.Below="Introduction"/>
+                <TextBlock x:ConnectionId='14' x:Name="introduction" RelativePanel.Below="Introduction"/>
             </RelativePanel>
             <TextBlock Text="Gender" Margin="0, 30, 0, 0"/>
 
@@ -59,7 +59,7 @@
             </StackPanel>
             <RelativePanel>
                 <CalendarDatePicker x:ConnectionId='8' x:Name="BirthDay" Header="Birthday" Margin="0, 30, 0, 0"                              />
-                <TextBlock x:ConnectionId='9' x:Name="BirthDay_Message" RelativePanel.Below="BirthDay"/>
+                <TextBlock x:ConnectionId='9' x:Name="birthday" RelativePanel.Below="BirthDay"/>
             </RelativePanel>
             <Button x:ConnectionId='5' x:Name="BtnSignup" Margin="0, 30, 0, 0" Content="Sign Up" HorizontalAlignment="Left" VerticalAlignment="Top"                       />
             <Button x:ConnectionId='6' Margin="200, -30, 0, 0" Content="Sign In" HorizontalAlignment="Left" VerticalAlignment="Top"                 />

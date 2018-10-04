@@ -226,3 +226,14 @@ C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\Frames\Sign.g.
 C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\Frames\Sign.xaml
 C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\Frames\Sign.xbf
 C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\Frames\Sign.xbf
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\System.Console.dll
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\System.ComponentModel.Primitives.dll
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\bin\x86\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\FxResources.System.Console.SR.resw
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\FxResources.System.ComponentModel.Primitives.SR.resw
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\FxResources.System.ComponentModel.TypeConverter.SR.resw
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
+C:\Users\HP ENVY\source\repos\AppVanMinh\AppVanMinh\obj\x86\Debug\FxResources.System.Runtime.Serialization.Formatters.SR.resw

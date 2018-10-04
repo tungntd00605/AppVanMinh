@@ -12,11 +12,11 @@
         <StackPanel Margin="30, 0, 0, 0" x:Name="ParentStackPanel">
             <RelativePanel>
                 <TextBox x:Name="Email" Margin="0, 30, 0, 0" Header="Email" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:Name="Email_Message" RelativePanel.Below="Email"/>
+                <TextBlock x:Name="email" RelativePanel.Below="Email"/>
             </RelativePanel>
             <RelativePanel>
                 <PasswordBox x:Name="Password" Margin="0, 30, 0, 0" Header="Password" Width="293" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                <TextBlock x:Name="Password_Message" RelativePanel.Below="Password"/>
+                <TextBlock x:Name="password" RelativePanel.Below="Password"/>
             </RelativePanel>
             <RelativePanel>
                 <PasswordBox x:Name="Confirm_Password" Margin="0, 30, 0, 0" Header="Confirm Password" Width="293" HorizontalAlignment="Left" VerticalAlignment="Top"/>
@@ -24,31 +24,31 @@
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:Name="FirstName" Margin="0, 30, 0, 0" Header="First Name" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:Name="FirstName_Message" RelativePanel.Below="FirstName"/>
+                <TextBlock x:Name="firstName" RelativePanel.Below="FirstName"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:Name="LastName" Margin="0, 30, 0, 0" Header="Last Name" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:Name="LastName_Message" RelativePanel.Below="LastName"/>
+                <TextBlock x:Name="lastName" RelativePanel.Below="LastName"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox x:Name="ImageUrl" Margin="0, 30, 0, 0" Header="Avatar Url" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:Name="ImageUrl_Message" RelativePanel.Below="ImageUrl"/>
+                <TextBlock x:Name="avatar" RelativePanel.Below="ImageUrl"/>
             </RelativePanel>
 
-            <Image x:Name="MyAvatar" Width="150" Height="150"/>
+            <Image x:Name="MyAvatar" Width="250" Height="250" HorizontalAlignment="Left"/>
 
             <Button Content="Capture Your Photo" Margin="0, 30, 0, 0" Click="Capture_Photo" />
             <RelativePanel>
                 <TextBox x:Name="Phone" Margin="0, 30, 0, 0" Header="Phone Number" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Width="293"/>
-                <TextBlock x:Name="Phone_Message" RelativePanel.Below="Phone"/>
+                <TextBlock x:Name="phone" RelativePanel.Below="Phone"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox AcceptsReturn="True" x:Name="Address" Margin="0, 30, 0, 0" Header="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Width="293" Height="100"/>
-                <TextBlock x:Name="Address_Message" RelativePanel.Below="Address"/>
+                <TextBlock x:Name="address" RelativePanel.Below="Address"/>
             </RelativePanel>
             <RelativePanel>
                 <TextBox AcceptsReturn="True" x:Name="Introduction" Margin="0, 30, 0, 0" Header="Introduction" HorizontalAlignment="Left" VerticalAlignment="Top" Width="293" Height="100"/>
-                <TextBlock x:Name="Introduction_Message" RelativePanel.Below="Introduction"/>
+                <TextBlock x:Name="introduction" RelativePanel.Below="Introduction"/>
             </RelativePanel>
             <TextBlock Text="Gender" Margin="0, 30, 0, 0"/>
 
@@ -59,7 +59,7 @@
             </StackPanel>
             <RelativePanel>
                 <CalendarDatePicker x:Name="BirthDay" Header="Birthday" Margin="0, 30, 0, 0" DateChanged="Change_Birthday"/>
-                <TextBlock x:Name="BirthDay_Message" RelativePanel.Below="BirthDay"/>
+                <TextBlock x:Name="birthday" RelativePanel.Below="BirthDay"/>
             </RelativePanel>
             <Button x:Name="BtnSignup" Margin="0, 30, 0, 0" Content="Sign Up" HorizontalAlignment="Left" VerticalAlignment="Top" Tapped="Handle_Signup"/>
             <Button Margin="200, -30, 0, 0" Content="Sign In" HorizontalAlignment="Left" VerticalAlignment="Top" Tapped="Sign_In"/>

@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -35,6 +38,8 @@ namespace AppVanMinh.Frames
         {
             var username = Username.Text;
             var password = Password.Password.ToString();
+           
+            
             if(username == "")
             {
                 Username_Message.Text = "Username khong duoc de trong!";
@@ -55,6 +60,20 @@ namespace AppVanMinh.Frames
             {
                 this.Hide();
             }
+
+
+        }
+        private static String API_LOGIN = "https://2-dot-backup-server-002.appspot.com/_api/v2/members/authentication";
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Dictionary<String, String> memberLogin = new Dictionary<string, string>();
+            memberLogin.Add("email", "xuanhung2401@gmail.com");
+            memberLogin.Add("password", "123");
+            HttpClient httpClient = new HttpClient();
+            var content = new StringContent(JsonConvert.SerializeObject(memberLogin), System.Text.Encoding.UTF8, "application/json");
+            var a = await httpClient.PostAsync(API_LOGIN, content).Result.Content.ReadAsStringAsync();
+            Debug.WriteLine(a);
         }
     }
 }
