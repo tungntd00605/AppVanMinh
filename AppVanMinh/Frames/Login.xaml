@@ -1,0 +1,26 @@
+﻿<ContentDialog
+    x:Name="Login_Dialog"
+    x:Class="AppVanMinh.Frames.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppVanMinh.Frames"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Center">
+        <RelativePanel>
+            <TextBox Header="Username:" x:Name="Username" HorizontalAlignment="Center" Width="250" />
+            <TextBlock x:Name="Username_Message" RelativePanel.Below="Username"/>
+        </RelativePanel>
+        <RelativePanel>
+            <PasswordBox Header="Password:" x:Name="Password" HorizontalAlignment="Center" Width="250"/>
+            <TextBlock x:Name="Password_Message" RelativePanel.Below="Password"/>
+        </RelativePanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Tapped="Login_Handle"/>
+            <Button Content="Sign Up" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Top" Tapped="Sign_Up"/>
+        </StackPanel>
+    </StackPanel>
+</ContentDialog>
